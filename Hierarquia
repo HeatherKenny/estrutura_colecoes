@@ -1,3 +1,8 @@
+# Estrutura de Coleções
+
+## Hierarquia
+
+```
 Collection (interface)
 ├── List – ordenada, permite duplicatas
 │   ├── ArrayList – acesso rápido por índice O(1)
@@ -17,3 +22,4 @@ Map – chave → valor (não é Collection, mas faz parte do Java Collections F
 ├── LinkedHashMap – mantém ordem de inserção
 ├── TreeMap – ordenado por chave
 └── Hashtable (legado, não usar)
+```
